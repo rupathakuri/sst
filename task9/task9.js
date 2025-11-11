@@ -4,7 +4,7 @@ console.time("measure speed");
 const container = document.getElementById("container");
 
 const image = document.createElement("img");
-image.src = "./large_image.jpeg";
+image.src = "./large-image.jpg";
 document.body.appendChild(image);
 
 for(let i=0; i<100; i++){
